@@ -1,0 +1,79 @@
+body{
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 70px;
+    margin-left: 5px;
+}
+
+h3{
+    font-size: 50px;
+    margin-left: 5px;
+}
+.my-world{
+    color: orangered;
+}
+p{
+    font-size: 28px;
+    text-align: justify;
+    margin-left: 5px;
+}
+.button-hm{
+    background-color: orangered;
+    background-image: linear-gradient(45deg, green, red);
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.container-flex{
+    display: flex;
+    margin-bottom: 80px;
+}
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.Aguner-din{
+    color: tomato;
+    text-shadow: yellow;
+}
+.h-w{
+    width: 50%;
+    padding: 5%;
+}
+
+.image-bottom{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.exp-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px turquoise;
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border-left: 10px red;
+}
+#b-1{
+    border-left: 15px solid black;
+    border-image: linear-gradient(black, white);
+    border-image-slice: 1;
+}
+#b-2{
+    border-left: 15px solid white;
+    border-image: linear-gradient(white, black);
+    border-image-slice: 1;
+}
